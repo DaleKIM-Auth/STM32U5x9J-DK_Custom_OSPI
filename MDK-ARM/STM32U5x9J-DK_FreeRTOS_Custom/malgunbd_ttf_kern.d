@@ -1,0 +1,28 @@
+stm32u5x9j-dk_freertos_custom/malgunbd_ttf_kern.o: \
+  ..\touchgfx\gui\src\common\malgunbd_ttf_kern.cpp \
+  ..\middlewares\st\touchgfx\framework\include\touchgfx\hal\Config.hpp \
+  ..\TouchGFX\gui\include\gui\common\malgunbd_ttf_kern.hpp \
+  ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_vg_font.h \
+  ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_matrix3x3.h \
+  ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_vg.h \
+  ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_core.h \
+  ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_hal.h \
+  ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_sys_defs.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdlib.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__config \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdio.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdint.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdbool.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_cmdlist.h \
+  ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_graphics.h \
+  ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_interpolators.h \
+  ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_blender.h \
+  ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_math.h \
+  ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_matrix4x4.h \
+  ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_vg_path.h \
+  ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_vg_context.h \
+  ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_vg_paint.h
