@@ -219,6 +219,7 @@ stm32u5x9j-dk_freertos_custom/touchgfxconfiguration.o: \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
   ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_hal.h \
   ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_blender.h \
+  ..\touchgfx\gui\include\gui\common\LCDFusion.hpp \
   ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_vg.h \
   ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_core.h \
   ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_cmdlist.h \

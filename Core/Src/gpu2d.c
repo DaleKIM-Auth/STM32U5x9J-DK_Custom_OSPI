@@ -66,7 +66,8 @@ void HAL_GPU2D_MspInit(GPU2D_HandleTypeDef* gpu2dHandle)
     HAL_NVIC_SetPriority(GPU2D_ER_IRQn, 5, 0);
     HAL_NVIC_EnableIRQ(GPU2D_ER_IRQn);
   /* USER CODE BEGIN GPU2D_MspInit 1 */
-
+    __HAL_RCC_SYSCFG_CLK_ENABLE();
+    SYSCFG->CFGR1 &= ~(1L << 28);
   /* USER CODE END GPU2D_MspInit 1 */
   }
 }

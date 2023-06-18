@@ -395,11 +395,6 @@
           <GroupName>Application/User/Core</GroupName>
           <Files>
             <File>
-              <FileName>retarget.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Core\Src\retarget.c</FilePath>
-            </File>
-            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/main.c</FilePath>
@@ -1133,9 +1128,6 @@
               <FilePath>../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/Keil6.x/touchgfxnema_release-wchar16.lib</FilePath>
             </File>
           </Files>
-        </Group>
-        <Group>
-          <GroupName>::CMSIS</GroupName>
         </Group>
         <Group>
           <GroupName>Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported</GroupName>
@@ -1900,6 +1892,9 @@
               </FileOption>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
     </Target>

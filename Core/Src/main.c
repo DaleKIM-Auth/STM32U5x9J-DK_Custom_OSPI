@@ -69,12 +69,14 @@ void MX_FREERTOS_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+#if 0
 #if __ARMCC_VERSION >= 6000000
     __asm(".global __use_no_semihosting");
 #elif __ARMCC_VERSION >= 5000000
     #pragma import(__use_no_semihosting)
 #else
     #error Unsupported compiler
+#endif
 #endif
 /* USER CODE END 0 */
 

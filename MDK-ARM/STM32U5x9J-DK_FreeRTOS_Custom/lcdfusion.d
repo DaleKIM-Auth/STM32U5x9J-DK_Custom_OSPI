@@ -44,4 +44,6 @@ stm32u5x9j-dk_freertos_custom/lcdfusion.o: \
   ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_blender.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\string.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  ..\Middlewares\ST\touchgfx_components\gpu2d\TouchGFXNema\include\touchgfx_nema\HALGPU2D.hpp \
+  ..\Middlewares\ST\touchgfx_components\gpu2d\NemaGFX\include\nema_cmdlist.h \
   ..\touchgfx\gui\src\common\KoreanFusionLetters.h

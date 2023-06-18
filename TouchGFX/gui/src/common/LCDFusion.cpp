@@ -1,6 +1,6 @@
 #include <gui/common/LCDFusion.hpp>
 #include <string.h>
-
+#include <touchgfx_nema/HALGPU2D.hpp>
 #include "KoreanFusionLetters.h"
 
 const uint8_t* glyphs[16][27] =
@@ -197,5 +197,10 @@ void LCDFusion::drawGlyph(uint16_t* wbuf16, Rect widgetArea, int16_t x, int16_t 
         // Now draw the combined 1bpp glyph
         LCDGPU2D::drawGlyph(wbuf16, widgetArea, x, y, offsetX, offsetY, invalidatedArea, glyph,
                             output , 1, color, 1, alpha, rotation);
+        // Should wait for drawGlyph - Lock and unlock the framebuffer should be enough.
+        HALGPU2D::getInstance()->submitExecBuffer();
+        uint16_t* fb = HAL::getInstance()->lockFrameBuffer();
+        HAL::getInstance()->unlockFrameBuffer();
+                            
     }    
 }

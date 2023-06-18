@@ -1,6 +1,5 @@
 --cpu=Cortex-M33
 "stm32u5x9j-dk_freertos_custom\startup_stm32u599xx.o"
-"stm32u5x9j-dk_freertos_custom\retarget.o"
 "stm32u5x9j-dk_freertos_custom\main.o"
 "stm32u5x9j-dk_freertos_custom\gpio.o"
 "stm32u5x9j-dk_freertos_custom\app_freertos.o"

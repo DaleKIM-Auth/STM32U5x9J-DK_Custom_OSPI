@@ -21,6 +21,7 @@
 #include <gui/common/FrontendHeap.hpp>
 #include <BitmapDatabase.hpp>
 #include <touchgfx_nema/LCDGPU2D.hpp>
+#include <gui/common/LCDFusion.hpp>
 extern "C"
 {
 #include <nema_hal.h>
@@ -37,7 +38,7 @@ extern "C" void touchgfx_components_init();
 
 static STM32TouchController tc;
 static STM32DMA dma;
-static LCDGPU2D display;
+static LCDFusion display;
 static ApplicationFontProvider fontProvider;
 static Texts texts;
 static TouchGFXHAL hal(dma, display, tc, 480, 480);
