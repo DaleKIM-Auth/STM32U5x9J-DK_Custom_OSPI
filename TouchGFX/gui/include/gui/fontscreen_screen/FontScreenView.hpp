@@ -12,12 +12,20 @@ public:
     virtual void setupScreen();
     virtual void tearDownScreen();
 
+    // Vector font
+    virtual void draw(Rect &rect);
+
     virtual void handleTickEvent();
 
     virtual void FusionFontTextUpdate();
+
 protected:
     uint32_t tickCounter;
     uint16_t textUpdated;
+
+    int16_t fontSize, vectorFontRefreshZone_X, vectorFontRefreshZone_Y, vectorFontRefreshZone_Width, vectorFontRefreshZone_Height, offset;
+    bool increaseFontSize, state;
+    float scale;
 };
 
 #endif // FONTSCREENVIEW_HPP

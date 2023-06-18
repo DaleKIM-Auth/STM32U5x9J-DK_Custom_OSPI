@@ -10,6 +10,7 @@
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
 #include <touchgfx/widgets/TextAreaWithWildcard.hpp>
+#include <touchgfx/containers/Container.hpp>
 
 class FontScreenViewBase : public touchgfx::View<FontScreenPresenter>
 {
@@ -32,6 +33,7 @@ protected:
     touchgfx::TextArea TextKoreanFusion;
     touchgfx::TextArea TextVectorFont;
     touchgfx::TextAreaWithOneWildcard FusionFont;
+    touchgfx::Container VectorFont_Container;
 
     /*
      * Wildcard Buffers

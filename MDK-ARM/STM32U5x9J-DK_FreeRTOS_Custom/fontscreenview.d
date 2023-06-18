@@ -191,4 +191,6 @@ stm32u5x9j-dk_freertos_custom/fontscreenview.o: \
   ..\middlewares\st\touchgfx\framework\include\touchgfx\TypedText.hpp \
   ..\middlewares\st\touchgfx\framework\include\touchgfx\Texts.hpp \
   ..\middlewares\st\touchgfx\framework\include\touchgfx\widgets\TextAreaWithWildcard.hpp \
-  ..\middlewares\st\touchgfx\framework\include\touchgfx\Utils.hpp
+  ..\middlewares\st\touchgfx\framework\include\touchgfx\Utils.hpp \
+  ..\touchgfx\generated\images\include\BitmapDatabase.hpp \
+  ..\touchgfx\generated\images\include\images\BitmapDatabase.hpp

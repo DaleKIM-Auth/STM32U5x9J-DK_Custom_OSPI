@@ -35,6 +35,9 @@ FontScreenViewBase::FontScreenViewBase()
     FusionFont.resizeToCurrentText();
     FusionFont.setTypedText(touchgfx::TypedText(T___SINGLEUSE_7YKM));
     add(FusionFont);
+
+    VectorFont_Container.setPosition(202, 250, 257, 85);
+    add(VectorFont_Container);
 }
 
 FontScreenViewBase::~FontScreenViewBase()
