@@ -15,13 +15,13 @@ FontScreenViewBase::FontScreenViewBase()
     BackGround_FS.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     add(BackGround_FS);
 
-    TextKoreanFusion.setXY(53, 170);
+    TextKoreanFusion.setXY(25, 170);
     TextKoreanFusion.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     TextKoreanFusion.setLinespacing(0);
     TextKoreanFusion.setTypedText(touchgfx::TypedText(T___SINGLEUSE_4UE2));
     add(TextKoreanFusion);
 
-    TextVectorFont.setXY(53, 263);
+    TextVectorFont.setXY(25, 260);
     TextVectorFont.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     TextVectorFont.setLinespacing(0);
     TextVectorFont.setTypedText(touchgfx::TypedText(T___SINGLEUSE_DO4O));
@@ -36,7 +36,7 @@ FontScreenViewBase::FontScreenViewBase()
     FusionFont.setTypedText(touchgfx::TypedText(T___SINGLEUSE_7YKM));
     add(FusionFont);
 
-    VectorFont_Container.setPosition(202, 250, 257, 85);
+    VectorFont_Container.setPosition(174, 240, 306, 169);
     add(VectorFont_Container);
 }
 
@@ -54,10 +54,10 @@ void FontScreenViewBase::handleKeyEvent(uint8_t key)
 {
     if(5 == key)
     {
-        //Interaction1
-        //When hardware button 5 clicked change screen to MainScreen
-        //Go to MainScreen with screen transition towards East
-        application().gotoMainScreenScreenSlideTransitionEast();
+        //ButtonInteraction
+        //When hardware button 5 clicked call virtual function
+        //Call ChangeVectorFontState
+        ChangeVectorFontState();
     
     }
 }

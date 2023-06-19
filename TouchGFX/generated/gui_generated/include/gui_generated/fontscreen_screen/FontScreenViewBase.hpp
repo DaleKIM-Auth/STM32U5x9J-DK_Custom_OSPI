@@ -20,6 +20,14 @@ public:
     virtual void setupScreen();
     virtual void handleKeyEvent(uint8_t key);
 
+    /*
+     * Virtual Action Handlers
+     */
+    virtual void ChangeVectorFontState()
+    {
+        // Override and implement this function in FontScreen
+    }
+
 protected:
     FrontendApplication& application() {
         return *static_cast<FrontendApplication*>(touchgfx::Application::getInstance());

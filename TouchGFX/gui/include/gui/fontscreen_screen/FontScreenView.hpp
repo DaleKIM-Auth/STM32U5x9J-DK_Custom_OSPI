@@ -18,6 +18,7 @@ public:
     virtual void handleTickEvent();
 
     virtual void FusionFontTextUpdate();
+    virtual void ChangeVectorFontState();
 
 protected:
     uint32_t tickCounter;
@@ -26,6 +27,7 @@ protected:
     int16_t fontSize, vectorFontRefreshZone_X, vectorFontRefreshZone_Y, vectorFontRefreshZone_Width, vectorFontRefreshZone_Height, offset;
     bool increaseFontSize, state;
     float scale;
+    int16_t clicked;
 };
 
 #endif // FONTSCREENVIEW_HPP

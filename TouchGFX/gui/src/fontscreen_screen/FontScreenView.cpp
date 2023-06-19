@@ -10,6 +10,10 @@ extern "C"
     void fpga_demo_release_font();
 }
 
+static const uint16_t koreanTextTempAsUnicode16[] = {
+    0xC0BC, 0xC131, 0x0020, 0xC0DD, 0xD65C, 0x0020, 0xAC00, 0xC804, 0x0}; // 삼성 생활 가전
+static uint8_t koreanTextTempAsUTF8[256] = {0};
+
 FontScreenView::FontScreenView() : tickCounter(0),
                                    textUpdated(0),
                                    fontSize(0),
@@ -20,7 +24,8 @@ FontScreenView::FontScreenView() : tickCounter(0),
                                    offset(0),
                                    increaseFontSize(true),
                                    state(false),
-                                   scale(1.0f)
+                                   scale(1.0f),
+                                   clicked(0)
 {
 }
 
@@ -48,7 +53,7 @@ void FontScreenView::draw(Rect &rect)
 
     fpga_demo_draw_font_scale(fb, vectorFontRefreshZone_X, vectorFontRefreshZone_Y,
                               vectorFontRefreshZone_Width, vectorFontRefreshZone_Height, scale, offset, state);
-    hal->unlockFrameBuffer();    
+    hal->unlockFrameBuffer();
 }
 
 void FontScreenView::handleTickEvent()
@@ -92,4 +97,46 @@ void FontScreenView::FusionFontTextUpdate()
 
     FusionFont.resizeToCurrentText();
     FusionFont.invalidate();
+}
+
+void FontScreenView::ChangeVectorFontState()
+{
+    VectorFont_Container.invalidateContent();
+
+    if (increaseFontSize && (fontSize != 2))
+    {
+        fontSize++;
+    }
+    else if (!increaseFontSize && (fontSize == 0))
+    {
+        application().gotoMainScreenScreenSlideTransitionEast();
+    }
+    else
+    {
+        increaseFontSize = false;
+        fontSize--;
+    }
+
+    switch (fontSize)
+    {
+    case 0:        
+        scale = 1.0f;
+        offset = 0;
+        break;
+    case 1:
+        state = !state;
+        scale = 1.5f;
+        offset = 56;
+        break;
+    case 2:
+        scale = 2.0f;
+        offset = 84;
+        break;
+    default:
+        break;
+    }
+    Rect r(vectorFontRefreshZone_X, vectorFontRefreshZone_Y, vectorFontRefreshZone_Width, vectorFontRefreshZone_Height);
+    invalidate();
+
+    VectorFont_Container.invalidateContent();    
 }

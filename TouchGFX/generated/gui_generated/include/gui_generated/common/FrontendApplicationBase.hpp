@@ -23,8 +23,6 @@ public:
     // MainScreen
     void gotoMainScreenScreenNoTransition();
 
-    void gotoMainScreenScreenSlideTransitionEast();
-
     // FontScreen
     void gotoFontScreenScreenSlideTransitionEast();
 
@@ -35,8 +33,6 @@ protected:
 
     // MainScreen
     void gotoMainScreenScreenNoTransitionImpl();
-
-    void gotoMainScreenScreenSlideTransitionEastImpl();
 
     // FontScreen
     void gotoFontScreenScreenSlideTransitionEastImpl();

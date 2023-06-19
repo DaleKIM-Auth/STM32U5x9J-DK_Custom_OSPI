@@ -84,7 +84,7 @@
           {
             "Type": "TextArea",
             "Name": "TextKoreanFusion",
-            "X": 53,
+            "X": 25,
             "Y": 170,
             "Width": 149,
             "Height": 40,
@@ -95,8 +95,8 @@
           {
             "Type": "TextArea",
             "Name": "TextVectorFont",
-            "X": 53,
-            "Y": 263,
+            "X": 25,
+            "Y": 260,
             "Width": 145,
             "Height": 25,
             "TextId": "__SingleUse_DO4O",
@@ -122,25 +122,23 @@
           {
             "Type": "Container",
             "Name": "VectorFont_Container",
-            "X": 202,
-            "Y": 250,
-            "Width": 257,
-            "Height": 85,
+            "X": 174,
+            "Y": 240,
+            "Width": 306,
+            "Height": 169,
             "Components": []
           }
         ],
         "Interactions": [
           {
-            "InteractionName": "Interaction1",
+            "InteractionName": "ButtonInteraction",
             "Trigger": {
               "Type": "TriggerPhysicalButtonClicked",
               "ButtonKey": 5
             },
             "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionSlide",
-              "ScreenTransitionDirection": "East",
-              "ActionComponent": "MainScreen"
+              "Type": "ActionCustom",
+              "FunctionName": "ChangeVectorFontState"
             }
           }
         ]

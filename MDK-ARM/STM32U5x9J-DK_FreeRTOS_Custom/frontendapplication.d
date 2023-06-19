@@ -180,4 +180,27 @@ stm32u5x9j-dk_freertos_custom/frontendapplication.o: \
   ..\middlewares\st\touchgfx\framework\include\touchgfx\hal\Gestures.hpp \
   ..\middlewares\st\touchgfx\framework\include\touchgfx\transitions\Transition.hpp \
   ..\middlewares\st\touchgfx\framework\include\touchgfx\widgets\Widget.hpp \
-  ..\touchgfx\gui\include\gui\model\Model.hpp
+  ..\touchgfx\gui\include\gui\model\Model.hpp \
+  ..\touchgfx\gui\include\gui\common\FrontendHeap.hpp \
+  ..\touchgfx\generated\gui_generated\include\gui_generated\common\FrontendHeapBase.hpp \
+  ..\middlewares\st\touchgfx\framework\include\common\Meta.hpp \
+  ..\middlewares\st\touchgfx\framework\include\common\Partition.hpp \
+  ..\middlewares\st\touchgfx\framework\include\touchgfx\transitions\NoTransition.hpp \
+  ..\middlewares\st\touchgfx\framework\include\touchgfx\transitions\SlideTransition.hpp \
+  ..\middlewares\st\touchgfx\framework\include\touchgfx\EasingEquations.hpp \
+  ..\middlewares\st\touchgfx\framework\include\touchgfx\widgets\SnapshotWidget.hpp \
+  ..\touchgfx\gui\include\gui\mainscreen_screen\MainScreenView.hpp \
+  ..\touchgfx\generated\gui_generated\include\gui_generated\mainscreen_screen\MainScreenViewBase.hpp \
+  ..\middlewares\st\touchgfx\framework\include\mvp\View.hpp \
+  ..\touchgfx\gui\include\gui\mainscreen_screen\MainScreenPresenter.hpp \
+  ..\touchgfx\gui\include\gui\model\ModelListener.hpp \
+  ..\middlewares\st\touchgfx\framework\include\touchgfx\widgets\Box.hpp \
+  ..\middlewares\st\touchgfx\framework\include\touchgfx\widgets\AnimatedImage.hpp \
+  ..\middlewares\st\touchgfx\framework\include\touchgfx\widgets\Image.hpp \
+  ..\middlewares\st\touchgfx\framework\include\touchgfx\widgets\TextArea.hpp \
+  ..\middlewares\st\touchgfx\framework\include\touchgfx\TypedText.hpp \
+  ..\middlewares\st\touchgfx\framework\include\touchgfx\Texts.hpp \
+  ..\touchgfx\gui\include\gui\fontscreen_screen\FontScreenView.hpp \
+  ..\touchgfx\generated\gui_generated\include\gui_generated\fontscreen_screen\FontScreenViewBase.hpp \
+  ..\touchgfx\gui\include\gui\fontscreen_screen\FontScreenPresenter.hpp \
+  ..\middlewares\st\touchgfx\framework\include\touchgfx\widgets\TextAreaWithWildcard.hpp
