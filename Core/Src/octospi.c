@@ -53,7 +53,7 @@ void MX_OCTOSPI1_Init(void)
   hxspi.Init.WrapSize = HAL_XSPI_WRAP_NOT_SUPPORTED;
   hxspi.Init.ClockPrescaler = 1;
   hxspi.Init.SampleShifting = HAL_XSPI_SAMPLE_SHIFT_NONE;
-  hxspi.Init.DelayHoldQuarterCycle = HAL_XSPI_DHQC_ENABLE;
+  hxspi.Init.DelayHoldQuarterCycle = HAL_XSPI_DHQC_DISABLE;
   hxspi.Init.ChipSelectBoundary = HAL_XSPI_BONDARYOF_NONE;
 
   HAL_XSPI_Init(&hxspi);

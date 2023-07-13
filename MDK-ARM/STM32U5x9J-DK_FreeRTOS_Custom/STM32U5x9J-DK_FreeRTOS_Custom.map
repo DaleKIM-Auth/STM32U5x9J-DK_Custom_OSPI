@@ -16610,21 +16610,21 @@ Image Symbol Table
     [Anonymous Symbol]                       0x080086d0   Section        0  icache.o(.text.MX_ICACHE_Init)
     [Anonymous Symbol]                       0x080086f4   Section        0  ltdc.o(.text.MX_LTDC_Init)
     [Anonymous Symbol]                       0x08008bfc   Section        0  octospi.o(.text.MX_OCTOSPI1_Init)
-    [Anonymous Symbol]                       0x08008c54   Section        0  tim.o(.text.MX_TIM8_Init)
-    [Anonymous Symbol]                       0x08008d84   Section        0  app_touchgfx.o(.text.MX_TouchGFX_Init)
-    [Anonymous Symbol]                       0x08008d90   Section        0  app_touchgfx.o(.text.MX_TouchGFX_PreOSInit)
-    [Anonymous Symbol]                       0x08008d94   Section        0  stm32u5xx_it.o(.text.MemManage_Handler)
-    [Anonymous Symbol]                       0x08008d98   Section        0  stm32u5xx_it.o(.text.NMI_Handler)
-    NVIC_EncodePriority                      0x08008d9d   Thumb Code   108  stm32u5xx_hal_cortex.o(.text.NVIC_EncodePriority)
-    [Anonymous Symbol]                       0x08008d9c   Section        0  stm32u5xx_hal_cortex.o(.text.NVIC_EncodePriority)
-    OSPI_AutoPollingMemReady                 0x08008e09   Thumb Code   136  octospi.o(.text.OSPI_AutoPollingMemReady)
-    [Anonymous Symbol]                       0x08008e08   Section        0  octospi.o(.text.OSPI_AutoPollingMemReady)
-    OSPI_MemoryMappedMode                    0x08008e91   Thumb Code   154  octospi.o(.text.OSPI_MemoryMappedMode)
-    [Anonymous Symbol]                       0x08008e90   Section        0  octospi.o(.text.OSPI_MemoryMappedMode)
-    OSPI_OctalModeCfg                        0x08008f2d   Thumb Code   356  octospi.o(.text.OSPI_OctalModeCfg)
-    [Anonymous Symbol]                       0x08008f2c   Section        0  octospi.o(.text.OSPI_OctalModeCfg)
-    OSPI_WriteEnable                         0x08009091   Thumb Code   176  octospi.o(.text.OSPI_WriteEnable)
-    [Anonymous Symbol]                       0x08009090   Section        0  octospi.o(.text.OSPI_WriteEnable)
+    [Anonymous Symbol]                       0x08008c4c   Section        0  tim.o(.text.MX_TIM8_Init)
+    [Anonymous Symbol]                       0x08008d7c   Section        0  app_touchgfx.o(.text.MX_TouchGFX_Init)
+    [Anonymous Symbol]                       0x08008d88   Section        0  app_touchgfx.o(.text.MX_TouchGFX_PreOSInit)
+    [Anonymous Symbol]                       0x08008d8c   Section        0  stm32u5xx_it.o(.text.MemManage_Handler)
+    [Anonymous Symbol]                       0x08008d90   Section        0  stm32u5xx_it.o(.text.NMI_Handler)
+    NVIC_EncodePriority                      0x08008d95   Thumb Code   108  stm32u5xx_hal_cortex.o(.text.NVIC_EncodePriority)
+    [Anonymous Symbol]                       0x08008d94   Section        0  stm32u5xx_hal_cortex.o(.text.NVIC_EncodePriority)
+    OSPI_AutoPollingMemReady                 0x08008e01   Thumb Code   136  octospi.o(.text.OSPI_AutoPollingMemReady)
+    [Anonymous Symbol]                       0x08008e00   Section        0  octospi.o(.text.OSPI_AutoPollingMemReady)
+    OSPI_MemoryMappedMode                    0x08008e89   Thumb Code   154  octospi.o(.text.OSPI_MemoryMappedMode)
+    [Anonymous Symbol]                       0x08008e88   Section        0  octospi.o(.text.OSPI_MemoryMappedMode)
+    OSPI_OctalModeCfg                        0x08008f25   Thumb Code   356  octospi.o(.text.OSPI_OctalModeCfg)
+    [Anonymous Symbol]                       0x08008f24   Section        0  octospi.o(.text.OSPI_OctalModeCfg)
+    OSPI_WriteEnable                         0x08009089   Thumb Code   176  octospi.o(.text.OSPI_WriteEnable)
+    [Anonymous Symbol]                       0x08009088   Section        0  octospi.o(.text.OSPI_WriteEnable)
     [Anonymous Symbol]                       0x08009140   Section        0  portasm.o(.text.PendSV_Handler)
     pxCurrentTCBConst                        0x08009190   Number         0  portasm.o(.text.PendSV_Handler)
     [Anonymous Symbol]                       0x08009194   Section        0  main.o(.text.PeriphCommonClock_Config)
@@ -18780,12 +18780,12 @@ Image Symbol Table
     MX_I2C5_Init                             0x08008659   Thumb Code   118  i2c.o(.text.MX_I2C5_Init)
     MX_ICACHE_Init                           0x080086d1   Thumb Code    34  icache.o(.text.MX_ICACHE_Init)
     MX_LTDC_Init                             0x080086f5   Thumb Code  1286  ltdc.o(.text.MX_LTDC_Init)
-    MX_OCTOSPI1_Init                         0x08008bfd   Thumb Code    86  octospi.o(.text.MX_OCTOSPI1_Init)
-    MX_TIM8_Init                             0x08008c55   Thumb Code   304  tim.o(.text.MX_TIM8_Init)
-    MX_TouchGFX_Init                         0x08008d85   Thumb Code    12  app_touchgfx.o(.text.MX_TouchGFX_Init)
-    MX_TouchGFX_PreOSInit                    0x08008d91   Thumb Code     2  app_touchgfx.o(.text.MX_TouchGFX_PreOSInit)
-    MemManage_Handler                        0x08008d95   Thumb Code     4  stm32u5xx_it.o(.text.MemManage_Handler)
-    NMI_Handler                              0x08008d99   Thumb Code     4  stm32u5xx_it.o(.text.NMI_Handler)
+    MX_OCTOSPI1_Init                         0x08008bfd   Thumb Code    80  octospi.o(.text.MX_OCTOSPI1_Init)
+    MX_TIM8_Init                             0x08008c4d   Thumb Code   304  tim.o(.text.MX_TIM8_Init)
+    MX_TouchGFX_Init                         0x08008d7d   Thumb Code    12  app_touchgfx.o(.text.MX_TouchGFX_Init)
+    MX_TouchGFX_PreOSInit                    0x08008d89   Thumb Code     2  app_touchgfx.o(.text.MX_TouchGFX_PreOSInit)
+    MemManage_Handler                        0x08008d8d   Thumb Code     4  stm32u5xx_it.o(.text.MemManage_Handler)
+    NMI_Handler                              0x08008d91   Thumb Code     4  stm32u5xx_it.o(.text.NMI_Handler)
     PendSV_Handler                           0x08009141   Thumb Code    84  portasm.o(.text.PendSV_Handler)
     PeriphCommonClock_Config                 0x08009195   Thumb Code    80  main.o(.text.PeriphCommonClock_Config)
     SVC_Handler                              0x08009611   Thumb Code    36  portasm.o(.text.SVC_Handler)
@@ -20683,20 +20683,20 @@ Memory Map of the image
     0x080086f2   0x080086f2   0x00000002   PAD
     0x080086f4   0x080086f4   0x00000506   Code   RO          152    .text.MX_LTDC_Init  ltdc.o
     0x08008bfa   0x08008bfa   0x00000002   PAD
-    0x08008bfc   0x08008bfc   0x00000056   Code   RO          179    .text.MX_OCTOSPI1_Init  octospi.o
-    0x08008c52   0x08008c52   0x00000002   PAD
-    0x08008c54   0x08008c54   0x00000130   Code   RO          205    .text.MX_TIM8_Init  tim.o
-    0x08008d84   0x08008d84   0x0000000c   Code   RO          850    .text.MX_TouchGFX_Init  app_touchgfx.o
-    0x08008d90   0x08008d90   0x00000002   Code   RO          848    .text.MX_TouchGFX_PreOSInit  app_touchgfx.o
-    0x08008d92   0x08008d92   0x00000002   PAD
-    0x08008d94   0x08008d94   0x00000004   Code   RO          225    .text.MemManage_Handler  stm32u5xx_it.o
-    0x08008d98   0x08008d98   0x00000004   Code   RO          221    .text.NMI_Handler   stm32u5xx_it.o
-    0x08008d9c   0x08008d9c   0x0000006c   Code   RO          873    .text.NVIC_EncodePriority  stm32u5xx_hal_cortex.o
-    0x08008e08   0x08008e08   0x00000088   Code   RO          191    .text.OSPI_AutoPollingMemReady  octospi.o
-    0x08008e90   0x08008e90   0x0000009a   Code   RO          183    .text.OSPI_MemoryMappedMode  octospi.o
-    0x08008f2a   0x08008f2a   0x00000002   PAD
-    0x08008f2c   0x08008f2c   0x00000164   Code   RO          181    .text.OSPI_OctalModeCfg  octospi.o
-    0x08009090   0x08009090   0x000000b0   Code   RO          193    .text.OSPI_WriteEnable  octospi.o
+    0x08008bfc   0x08008bfc   0x00000050   Code   RO          179    .text.MX_OCTOSPI1_Init  octospi.o
+    0x08008c4c   0x08008c4c   0x00000130   Code   RO          205    .text.MX_TIM8_Init  tim.o
+    0x08008d7c   0x08008d7c   0x0000000c   Code   RO          850    .text.MX_TouchGFX_Init  app_touchgfx.o
+    0x08008d88   0x08008d88   0x00000002   Code   RO          848    .text.MX_TouchGFX_PreOSInit  app_touchgfx.o
+    0x08008d8a   0x08008d8a   0x00000002   PAD
+    0x08008d8c   0x08008d8c   0x00000004   Code   RO          225    .text.MemManage_Handler  stm32u5xx_it.o
+    0x08008d90   0x08008d90   0x00000004   Code   RO          221    .text.NMI_Handler   stm32u5xx_it.o
+    0x08008d94   0x08008d94   0x0000006c   Code   RO          873    .text.NVIC_EncodePriority  stm32u5xx_hal_cortex.o
+    0x08008e00   0x08008e00   0x00000088   Code   RO          191    .text.OSPI_AutoPollingMemReady  octospi.o
+    0x08008e88   0x08008e88   0x0000009a   Code   RO          183    .text.OSPI_MemoryMappedMode  octospi.o
+    0x08008f22   0x08008f22   0x00000002   PAD
+    0x08008f24   0x08008f24   0x00000164   Code   RO          181    .text.OSPI_OctalModeCfg  octospi.o
+    0x08009088   0x08009088   0x000000b0   Code   RO          193    .text.OSPI_WriteEnable  octospi.o
+    0x08009138   0x08009138   0x00000008   PAD
     0x08009140   0x08009140   0x00000054   Code   RO         4811    .text.PendSV_Handler  portasm.o
     0x08009194   0x08009194   0x00000050   Code   RO           15    .text.PeriphCommonClock_Config  main.o
     0x080091e4   0x080091e4   0x00000174   Code   RO         1317    .text.RCCEx_PLL2_Config  stm32u5xx_hal_rcc_ex.o
@@ -23089,7 +23089,7 @@ Image component sizes
          0          0    6481756         48          0       8806   malgunbd_ttf_kern.o
         22          0          0          0          0       1988   model.o
        654          0        177          4     245532       4467   nema_hal.o
-      1486          0          0          0         96      12315   octospi.o
+      1480          0          0          0         96      12315   octospi.o
        322          0        183          4          8       4216   oswrappers.o
        650          0          0          4          0       2771   port.o
        244         16          0          0          0       1365   portasm.o
@@ -23137,7 +23137,7 @@ Image component sizes
     ----------------------------------------------------------------------
      76190        164    6947864    1384218     310564     980457   Object Totals
          0          0         32          0          0          0   (incl. Generated)
-       554         12         16          3         19          0   (incl. Padding)
+       560         12         16          3         19          0   (incl. Padding)
 
     ----------------------------------------------------------------------
 
